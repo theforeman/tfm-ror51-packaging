@@ -5,15 +5,16 @@ localhost:
 
 all:
   vars:
-    chroots:
-      - dist: epel-7-x86_64
-        external_repos:
-          - http://mirror.centos.org/centos/7/sclo/x86_64/rh/
-          - https://copr-be.cloud.fedoraproject.org/results/@theforeman/tfm-ror51-staging/epel-7-$basearch/
-        packages:
-          - scl-utils-build
-          - rh-ruby24-build
-          - tfm-ror51-build
+    scratch_build_type: 'copr'
+    copr_repo_chroot: epel-7-x86_64
+    copr_repo_description: 'Scratch Builds'
+    copr_repo_external_repos:
+      - http://mirror.centos.org/centos/7/sclo/x86_64/rh/
+      - https://copr-be.cloud.fedoraproject.org/results/@theforeman/tfm-ror51-staging/epel-7-$basearch/
+    copr_repo_packages:
+      - scl-utils-build
+      - rh-ruby24-build
+      - tfm-ror51-build
 
 packages:
   vars:
