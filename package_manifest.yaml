@@ -42,21 +42,21 @@ packages:
   hosts:
     tfm-ror51: {}
     tfm-ror51-rubygem-actioncable:
-      version: 5.1.4
+      version: 5.1.6
     tfm-ror51-rubygem-actionmailer:
-      version: 5.1.4
+      version: 5.1.6
     tfm-ror51-rubygem-actionpack:
-      version: 5.1.4
+      version: 5.1.6
     tfm-ror51-rubygem-actionview:
-      version: 5.1.4
+      version: 5.1.6
     tfm-ror51-rubygem-activejob:
-      version: 5.1.4
+      version: 5.1.6
     tfm-ror51-rubygem-activemodel:
-      version: 5.1.4
+      version: 5.1.6
     tfm-ror51-rubygem-activerecord:
-      version: 5.1.4
+      version: 5.1.6
     tfm-ror51-rubygem-activesupport:
-      version: 5.1.4
+      version: 5.1.6
     tfm-ror51-rubygem-arel:
       version: 8.0.0
     tfm-ror51-rubygem-builder:
@@ -108,13 +108,13 @@ packages:
     tfm-ror51-rubygem-rack-test:
       version: 0.7.0
     tfm-ror51-rubygem-rails:
-      version: 5.1.4
+      version: 5.1.6
     tfm-ror51-rubygem-rails-dom-testing:
       version: 2.0.3
     tfm-ror51-rubygem-rails-html-sanitizer:
       version: 1.0.3
     tfm-ror51-rubygem-railties:
-      version: 5.1.4
+      version: 5.1.6
     tfm-ror51-rubygem-sass:
       version: 3.5.3
     tfm-ror51-rubygem-sass-rails:
