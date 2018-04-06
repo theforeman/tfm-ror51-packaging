@@ -1,0 +1,4 @@
+---
+releasers:
+  - copr-release
+diff_package_copr_repo: tfm-ror51
