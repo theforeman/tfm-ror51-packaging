@@ -5,7 +5,7 @@
 %global gem_name sass-rails
 
 Name:    %{?scl_prefix}rubygem-%{gem_name}
-Version: 5.0.7
+Version: 6.0.0
 Release: 1%{?dist}
 Summary: Sass adapter for the Rails asset pipeline
 Group:   Development/Languages
@@ -15,15 +15,11 @@ Source0: https://rubygems.org/gems/%{gem_name}-%{version}.gem
 
 Requires: %{?scl_prefix_ruby}ruby(release)
 Requires: %{?scl_prefix_ruby}ruby(rubygems)
-Requires: %{?scl_prefix}rubygem(railties)
-Requires: %{?scl_prefix}rubygem(sass)
-Requires: %{?scl_prefix}rubygem(sprockets-rails)
-Requires: %{?scl_prefix}rubygem(sprockets)
-Requires: %{?scl_prefix}rubygem(tilt)
+Requires: %{?scl_prefix}rubygem(sassc-rails) >= 2.1.1
+Requires: %{?scl_prefix}rubygem(sassc-rails) < 3
 BuildRequires: %{?scl_prefix_ruby}ruby(release)
 BuildRequires: %{?scl_prefix_ruby}rubygems-devel
 BuildRequires: %{?scl_prefix_ruby}ruby
-BuildRequires: %{?scl_prefix}rubygem(sqlite3)
 BuildArch: noarch
 Provides: %{?scl_prefix}rubygem(%{gem_name}) = %{version}
 
@@ -83,5 +79,8 @@ cp -pa .%{gem_dir}/* \
 %doc %{gem_instdir}/README.md
 
 %changelog
+* Fri Oct 04 2019 Michael Moll <mmoll@mmoll.at> - 6.0.0-1
+- Update to 6.0.0
+
 * Tue Aug 14 2018 Eric D. Helms <ericdhelms@gmail.com> - 5.0.7-1
 - Initial package
