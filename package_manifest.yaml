@@ -115,6 +115,8 @@ packages:
       version: 3.4.25
     tfm-ror52-rubygem-sass-rails:
       version: 6.0.0
+    tfm-ror52-rubygem-sassc-rails:
+      version: 2.1.2
     tfm-ror52-rubygem-sinatra:
       version: 2.0.3
     tfm-ror52-rubygem-sprockets:
